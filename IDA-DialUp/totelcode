@@ -1,0 +1,34 @@
+ifconfig>a
+tail -2 a>b
+c=$(cat b)
+zenity --info --text="$c"
+
+
+
+i=0
+
+for ((  i = 0 ;  i >= 0;  i++  ))
+do
+
+ifconfig>a
+tail -2 a>b
+awk '{print $2}' b>c
+cut -c 7-10,10-100 c>in2
+
+sleep 1
+
+ifconfig>a
+tail -2 a>b
+awk '{print $2}' b>c
+cut -c 7-10,10-100 c>in1
+
+s1=$(cat in1)
+s2=$(cat in2)
+
+((speed=$s1-$s2))
+clear
+echo $speed bytes/sec
+
+
+done
+

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE glade-interface SYSTEM "glade-2.0.dtd">
+<!--Generated with glade3 3.4.5 on Tue Jul 14 22:39:05 2009 -->
+<glade-interface>
+  <widget class="GtkWindow" id="windowmain">
+    <property name="visible">True</property>
+    <property name="border_width">10</property>
+    <property name="title" translatable="yes">IDA</property>
+    <property name="resizable">False</property>
+    <property name="window_position">GTK_WIN_POS_CENTER</property>
+    <property name="icon">pppoeconf.xpm</property>
+    <signal name="destroy" handler="on_windowmain_destroy"/>
+    <child>
+      <widget class="GtkTable" id="table1">
+        <property name="visible">True</property>
+        <property name="border_width">5</property>
+        <property name="n_rows">4</property>
+        <property name="n_columns">2</property>
+        <property name="homogeneous">True</property>
+        <child>
+          <widget class="GtkButton" id="help">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="border_width">5</property>
+            <property name="label" translatable="yes">gtk-help</property>
+            <property name="use_stock">True</property>
+            <property name="response_id">0</property>
+            <signal name="clicked" handler="on_help_clicked"/>
+          </widget>
+          <packing>
+            <property name="left_attach">1</property>
+            <property name="right_attach">2</property>
+            <property name="top_attach">3</property>
+            <property name="bottom_attach">4</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="clear">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="border_width">5</property>
+            <property name="label" translatable="yes">Clear History</property>
+            <property name="response_id">0</property>
+            <signal name="clicked" handler="on_clear_clicked"/>
+          </widget>
+          <packing>
+            <property name="left_attach">1</property>
+            <property name="right_attach">2</property>
+            <property name="top_attach">2</property>
+            <property name="bottom_attach">3</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="transfer">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="border_width">5</property>
+            <property name="label" translatable="yes">Current Transfers</property>
+            <property name="response_id">0</property>
+            <signal name="clicked" handler="on_transfer_clicked"/>
+          </widget>
+          <packing>
+            <property name="left_attach">1</property>
+            <property name="right_attach">2</property>
+            <property name="top_attach">1</property>
+            <property name="bottom_attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="record">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="border_width">5</property>
+            <property name="label" translatable="yes">gtk-media-record</property>
+            <property name="use_stock">True</property>
+            <property name="response_id">0</property>
+            <signal name="clicked" handler="on_record_clicked"/>
+          </widget>
+          <packing>
+            <property name="left_attach">1</property>
+            <property name="right_attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="remain">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="border_width">5</property>
+            <property name="label" translatable="yes">Show Remaining Data</property>
+            <property name="response_id">0</property>
+            <signal name="clicked" handler="on_remain_clicked"/>
+          </widget>
+          <packing>
+            <property name="top_attach">3</property>
+            <property name="bottom_attach">4</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="peakspeed">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="border_width">5</property>
+            <property name="label" translatable="yes">Peak Speed</property>
+            <property name="response_id">0</property>
+            <signal name="clicked" handler="on_peakspeed_clicked"/>
+          </widget>
+          <packing>
+            <property name="top_attach">2</property>
+            <property name="bottom_attach">3</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="history">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="border_width">5</property>
+            <property name="label" translatable="yes">Show History</property>
+            <property name="response_id">0</property>
+            <signal name="clicked" handler="on_history_clicked"/>
+          </widget>
+          <packing>
+            <property name="top_attach">1</property>
+            <property name="bottom_attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="connect">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="border_width">5</property>
+            <property name="label" translatable="yes">gtk-connect</property>
+            <property name="use_stock">True</property>
+            <property name="response_id">0</property>
+            <signal name="clicked" handler="on_connect_clicked"/>
+          </widget>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</glade-interface>
