@@ -17,3 +17,23 @@ In this stage   files maintain data taken from the stage2 and updated regularly,
 
 
 #Screenshots 
+######The graphical user interface for the IDA:  
+![](images/i1.png?raw=true "")
+
+######Creating internet connection by connect button:
+![](images/i2.png?raw=true "")
+
+######Showing total usage of data for a month:
+![](images/i3.png?raw=true "")
+
+######Showing peak speed from the starting of the connection:
+![](images/i4.png?raw=true "")
+
+######Showing the remaining data for a month:
+![](images/i5.png?raw=true "")
+
+######Starting data recording by Record button:
+![](images/i6.png?raw=true "")
+
+######Showing current data transfers:
+![](images/i7.png?raw=true "")
