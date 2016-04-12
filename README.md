@@ -14,3 +14,6 @@ In this stage by taking the values obtained from stage 1, the total   amount of 
 And these data will be sent to the stage 3
 Third stage: 
 In this stage   files maintain data taken from the stage2 and updated regularly, by these data pie charts and bar charts will be created which are very easy to understand by the users.
+
+
+#Screenshots 
